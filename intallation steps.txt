@@ -1,0 +1,25 @@
+contact: 9676622023
+
+Anaconda installation
+windows:
+	https://www.anaconda.com/download/
+	Download python 2.7 version of anaconda 
+	will get a .exe file
+	Double click on the file. got with next. Make sure that you checked the check
+	box to add anaconda path to environment variables
+Linux: 
+	https://www.anaconda.com/download/
+	download python2.7 version of anaconda
+	will get .sh file
+                   Bash Ancaon----xxx.sh
+	It will prompt you for yes/no message-- laways give yes
+
+Sublime text installation
+windows:
+	https://www.sublimetext.com/3
+	got with the portable version
+	download the .exe file and install it.
+linux: ubuntu
+	Goto www.sublimetext.com/docs/3/linux_repositories.html URL
+	select your operating system
+	run the commands
