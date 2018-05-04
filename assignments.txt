@@ -261,6 +261,13 @@ Eligibility:
 131. Read a json file. Try to get the information from the file
 132. Read a yaml file. Try to get the information from the file
 133. Read any image data using Opencv
+134. make alternative words reversed in given string: 
+	ex: "python program good language"-> "python margorp good egaugnal"
+	l=['c',"cpp","java","php","python"]
+135. case insensitive count# l.count("C")->1
+136. like count l.own_count("c")->2 with case insensitive
+
+
 
 
 
