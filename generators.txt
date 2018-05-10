@@ -1,0 +1,135 @@
+Python 3.6.5 |Anaconda, Inc.| (default, Mar 29 2018, 18:21:58) 
+[GCC 7.2.0] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>> def fun(a,b):
+...     return a+b
+... print map(fun,xrange(10),xrange(10,20))
+  File "<stdin>", line 3
+    print map(fun,xrange(10),xrange(10,20))
+        ^
+SyntaxError: invalid syntax
+>>> def fun(a,b):
+...     return a+b
+... 
+>>> print map(fun,range(10),range(10,20)
+  File "<stdin>", line 1
+    print map(fun,range(10),range(10,20)
+            ^
+SyntaxError: invalid syntax
+>>> print(map(fun,range(10),range(10,20))
+... 
+... )
+<map object at 0x7fbf0bd32d30>
+>>> print(map(fun,range(10),range(10,20)))
+<map object at 0x7fbf0bd32d30>
+>>> res = map(fun,range(10),range(10,20))
+>>> for i in res:
+...     print (i)
+... 
+10
+12
+14
+16
+18
+20
+22
+24
+26
+28
+>>> range(10)
+range(0, 10)
+>>> xrange(10)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'xrange' is not defined
+>>> [i+2 for i in range(10) if i%2==0]
+[2, 4, 6, 8, 10]
+>>> (i+2 for i in range(10) if i%2==0)
+<generator object <genexpr> at 0x7fbf0bd3ec50>
+>>> {1:2 for i in range(10)}
+{1: 2}
+>>> {i:j for i,j in zip(range(10),range(10,20))}
+{0: 10, 1: 11, 2: 12, 3: 13, 4: 14, 5: 15, 6: 16, 7: 17, 8: 18, 9: 19}
+>>> zip(range(10),range(10,20))
+<zip object at 0x7fbf0bd478c8>
+>>> res = zip(range(10),range(10,20))
+>>> for i in res:
+...     print (i)
+... 
+(0, 10)
+(1, 11)
+(2, 12)
+(3, 13)
+(4, 14)
+(5, 15)
+(6, 16)
+(7, 17)
+(8, 18)
+(9, 19)
+>>> for i in res:
+...    print (i)
+... 
+>>> res = map(fun,range(10),range(10,20))
+>>> print res
+  File "<stdin>", line 1
+    print res
+            ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(res)?
+>>> print(res)
+<map object at 0x7fbf0bd32d30>
+>>> for i in res:
+...     print (i)
+... 
+10
+12
+14
+16
+18
+20
+22
+24
+26
+28
+>>> for i in res:
+...     print i
+  File "<stdin>", line 2
+    print i
+          ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(i)?
+>>> 
+>>>     print i
+  File "<stdin>", line 1
+    print i
+    ^
+IndentationError: unexpected indent
+>>> for i in res:
+...     print (i)
+... 
+>>> x=range(10)
+>>> for i  in x:
+...     print (i)
+... 
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+>>> for i  in x:
+...     print (i)
+... 
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+>>> 
