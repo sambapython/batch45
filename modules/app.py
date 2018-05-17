@@ -48,6 +48,55 @@ print a
 fun()
 f2_fun()
 '''
+'''
 from f3 import fun
 fun()
+'''
+'''
+import sqlite3
+import f1
+'''
+'''
+import sys
+print sys.path
+import f1
+f1.fun()
+'''
+'''
+import sys
+#sys.path.append("/home/khyaathi-python")
+sys.path.insert(0,"/home/khyaathi-python")
+#sys.path.reverse()
+print sys.path
+import f1
+f1.fun()
+'''
+#import empty
+#from empty import file1
+'''
+import empty
+empty.file1.fun()
+'''
+'''
+import empty
+empty.file1.fun()
+'''
+'''
+from empty import file1
+file1.fun()
+'''
+'''
+import empty
+import empty
+import empty
+'''
+'''
+from empty import file1
+file1.fun()
+'''
+'''
+from empty.file1 import fun
+fun()
+'''
+from empty import file2
 

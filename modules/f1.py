@@ -1,4 +1,4 @@
-
+print "f1 in current working directory"
 a=100
 def fun():
 	print "this is fun in f1"
