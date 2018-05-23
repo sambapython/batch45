@@ -1,7 +1,7 @@
-print "this is file1"
+print ("this is file1")
 a=100
 def fun():
-	print "this is fun in file1"
+	print ("this is fun in file1")
 
 def main():
 	# statements specific to this file 

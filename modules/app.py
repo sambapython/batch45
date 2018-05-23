@@ -98,5 +98,5 @@ file1.fun()
 from empty.file1 import fun
 fun()
 '''
-from empty import file2
-
+#from empty import file1, file2
+import empty

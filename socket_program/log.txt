@@ -1,0 +1,3 @@
+2018-05-23 09:12:11,889==>ERROR==>invalid literal for int() with base 10: 'we23'
+2018-05-23 09:12:49,127==>ERROR==>
+2018-05-23 09:13:21,585==>ERROR==>invalid literal for int() with base 10: 'wersdf'

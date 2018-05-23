@@ -1,3 +1,3 @@
-print "this is init"
-#import file1
-#import file2
+print ("this is init")
+import file1
+import file2
